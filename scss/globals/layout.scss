@@ -1,0 +1,17 @@
+@use '../utils' as *;
+
+.container {
+	padding: 0 rem(64);
+
+	&--dark {
+		background: var(--bg-dark);
+	}
+
+	&--light {
+		background: var(--bg-light);
+	}
+
+	@include breakpoint(large) {
+		padding: 0;
+	}
+}
