@@ -4,9 +4,9 @@
     background-image: url('./images/hero-photo.png');
     background-repeat: no-repeat;
     height: rem(700);
-    margin: 0 auto ;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 
     &__text-container {
         grid-column: 1/1;

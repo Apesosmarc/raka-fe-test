@@ -1,2 +1,2 @@
-"use strict";console.log("js loading");
+"use strict";console.log("js loading");var closeButton=document.querySelector(".close-nav"),openButton=document.querySelector(".open-nav"),nav=document.querySelector(".nav");closeButton.addEventListener("click",(function(){nav.classList.remove("navigation-open")})),openButton.addEventListener("click",(function(){nav.classList.add("navigation-open")}));
 //# sourceMappingURL=script.js.map

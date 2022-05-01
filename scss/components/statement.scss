@@ -1,0 +1,25 @@
+@use '../utils' as *;
+
+
+.statement {
+    height: rem(471);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__copy {
+        font-size: rem(32);
+        line-height: rem(52);
+        letter-spacing: 1%;
+        text-align:center;
+        max-width: rem(1100);
+    }
+
+    &::after{
+        content: "";
+        width: rem(246);
+        height: rem(4);
+        background-color: var(--primary);
+    }
+}
