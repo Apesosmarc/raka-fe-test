@@ -4,28 +4,49 @@
 .header {
     background-color: var(--bg-dark);
     color: var(--light-text);
-    max-height: rem(135);
-    max-width: rem(1313);	
-    margin:0 auto;
+    height: rem(96);
+    width: rem(1313);	
+    display: flex;
+    align-items: center;
+
 
 
     &__nav {
+        padding: 0 rem(64);
+        height: rem(61.7);
         width: 100%;
         display: flex;
         justify-content:space-between;
         align-items:center;
-    }
 
-    &__nav__list {
-        display: flex;
+        &__list {
+            display: flex;
+            align-items:center;
+        }
+    
+
+        &__logo {
+            background-image: url('./images/rakalogo.png');
+            width: rem(157);
+            height: 100%;
+            background-repeat: no-repeat;
+           background-size: contain;
+        }
+
         &__item {
-            
+            font-weight: 700;
+            font-family: var(--font-title);
+            font-size: rem(20);
+            line-height: 16px;
+        }
+
+        &__item:not(:first-child) {
+            margin-left: rem(52);
         }
     }
 
-    &__nav-item {
-        font-weight: 700;
-        font-family: var(--font-title);
-        font-size: rem(20);
-    }
+
+
+
+
 }

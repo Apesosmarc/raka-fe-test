@@ -1,0 +1,20 @@
+@use '../utils' as *;
+
+
+.btn {
+
+    // min-width: rem(112);
+    // box-sizing on body overwritten?
+    box-sizing:border-box;
+    max-width: rem(186);
+    padding: rem(20) rem(30);
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-size: rem(20);
+    line-height: rem(10);
+    font-family: var(--font-title);
+}

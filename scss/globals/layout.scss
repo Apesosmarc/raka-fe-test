@@ -1,7 +1,11 @@
 @use '../utils' as *;
 
 .container {
-	padding: 0 rem(64);
+	display: flex;
+	align-items:center;
+	align-content:center;
+	flex-direction: column;
+
 
 	&--dark {
 		background: var(--bg-dark);
@@ -15,3 +19,10 @@
 		padding: 0;
 	}
 }
+
+main {
+	margin: 0 auto;
+	max-width: rem(1313);	
+    padding: rem(12) rem(64) 0;
+}
+

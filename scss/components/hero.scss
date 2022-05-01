@@ -1,0 +1,38 @@
+@use '../utils' as *;
+
+.hero {
+    background-image: url('./images/hero-photo.png');
+    background-repeat: no-repeat;
+    height: rem(700);
+    margin: 0 auto ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__text-container {
+        grid-column: 1/1;
+        align-self: center;
+        justify-self: end;
+        max-width: rem(550);
+        margin-left: 25%;
+
+        & > * {
+            margin: 0;
+        }
+    }
+
+    &__title {
+        font-size: rem(65);
+        line-height: rem(75);
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        font-size: rem(32);
+        line-height: rem(42);
+        margin-bottom: rem(30);
+    }
+
+    &__btn {
+        justify-self: start;
+    };
+}

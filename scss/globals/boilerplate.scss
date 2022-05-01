@@ -9,6 +9,7 @@ body {
     font-family: var(--font-body);
     color: var(--light-text);
     overflow-x:hidden;  
+    box-sizing: border-box;
 }
 
 body a, a:link, a:visited, a:focus, a:hover, a:active, a:-webkit-any-link {
