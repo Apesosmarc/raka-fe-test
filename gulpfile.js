@@ -50,7 +50,10 @@ function browserSyncReload(cb) {
 // Watch Task
 function watchTask() {
   watch("*.html", browserSyncReload);
-  watch(["scss/**/*.scss"], series(scssTask, jsTask, browserSyncReload));
+  watch(
+    ["scss/**/*.scss", "js/script.js"],
+    series(scssTask, jsTask, browserSyncReload)
+  );
 }
 
 // Default Gulp Task

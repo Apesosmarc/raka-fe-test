@@ -3,9 +3,11 @@
 .hero {
     background-image: url('./images/hero-photo.png');
     background-repeat: no-repeat;
+    background-size:cover;
     height: rem(700);
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 
 
     &__text-container {
@@ -20,17 +22,6 @@
         }
     }
 
-    &__title {
-        font-size: rem(65);
-        line-height: rem(75);
-        text-transform: uppercase;
-    }
-
-    &__subtitle {
-        font-size: rem(32);
-        line-height: rem(42);
-        margin-bottom: rem(30);
-    }
 
     &__btn {
         justify-self: start;

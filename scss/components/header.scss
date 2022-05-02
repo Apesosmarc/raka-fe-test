@@ -4,17 +4,16 @@
 .header {
     background-color: var(--bg-dark);
     color: var(--light-text);
-    height: rem(96);
-    max-width: rem(1313);	
-    width: 100%;
+    height: rem(163);
     display: flex;
     align-items: center;
-
+    justify-content: center;
 
 
     &__nav {
         // padding: 0 rem(64);
-
+        max-width: rem(1313);	
+        width: 100%;
         height: rem(61.7);
         width: 100%;
         display: flex;
@@ -35,12 +34,6 @@
            background-size: contain;
         }
 
-        &__item {
-            font-weight: 700;
-            font-family: var(--font-title);
-            font-size: rem(20);
-            line-height: 16px;
-        }
 
         &__item:not(:first-child) {
             margin-left: rem(52);

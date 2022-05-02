@@ -1,0 +1,30 @@
+@use '../utils' as *;
+
+
+.info {
+    padding: rem(143) 0 0;
+    margin: 0 auto;
+    height: rem(736);
+    color: var(--dark-text);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: rem(1200);
+    max-height: rem(460);
+    column-gap: rem(100);
+
+    &__col {
+        grid-column: 1/1;
+  
+    }
+
+    &__col--2 {
+        grid-column: 2/2;
+    }
+
+    .info__btn {
+        color: var(--light-text);
+        margin-top: rem(36);
+        height: rem(58);
+    }
+}

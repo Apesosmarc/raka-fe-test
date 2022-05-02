@@ -11,3 +11,11 @@ closeButton.addEventListener("click", () => {
 openButton.addEventListener("click", () => {
   nav.classList.add("navigation-open");
 });
+
+function redirect() {
+  setTimeout(function () {
+    window.location.replace("/");
+  }, 5000);
+}
+
+document.body.addEventListener("onload", redirect());
