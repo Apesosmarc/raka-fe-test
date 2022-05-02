@@ -73,3 +73,14 @@ nav {
     text-decoration: underline;
     text-transform: capitalize;
 }
+
+
+
+
+.footer__nav__list-item {
+    font-size: rem(14);
+    line-height: rem(30);
+    text-transform: uppercase;
+    font-family: var(--font-title);
+   
+}
