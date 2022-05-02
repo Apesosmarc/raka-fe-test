@@ -17,14 +17,11 @@ img {
     width: 100%;
 }
 
-body a, a:link, a:visited, a:focus, a:hover, a:active, a:-webkit-any-link {
+body a, a:link, a:visited, a:focus, a:hover, a:active {
     color: inherit;
-    text-decoration:none; 
+    text-decoration: none; 
 }
 
-a {
-    color:inherit;
-}
 
 ul {
     list-style: none;

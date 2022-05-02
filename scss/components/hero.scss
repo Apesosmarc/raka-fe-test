@@ -4,10 +4,11 @@
     background-image: url('./images/hero-photo.png');
     background-repeat: no-repeat;
     background-size:cover;
+    background-color: var(--bg-light);
     height: rem(700);
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    background-blend-mode: multiply;
 
 
     &__text-container {

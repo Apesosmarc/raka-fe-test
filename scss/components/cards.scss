@@ -32,6 +32,7 @@
         color: var(--primary-dark)
     }
 
+
 }
 
 @media (max-width:1000px) {
@@ -43,6 +44,7 @@
 @media (max-width: 700px){
     .cards {
         grid-template-columns: 1fr;
+        row-gap: 2rem;
     }
 
     .cards__copy {
