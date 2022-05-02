@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items:center;
     justify-content:center;
+    text-align:center;
 
     &__nav {
         max-width: rem(584);
@@ -23,6 +24,7 @@
         margin-top: rem(40);
         display: flex;
         gap: rem(32);
+        padding: 0;
     }
 
 
@@ -38,5 +40,10 @@
             fill: var(--primary-dark);
         }
 
+    }
+
+    &__fineprint{
+
+        margin: rem(40) 0 rem(87);
     }
 }
