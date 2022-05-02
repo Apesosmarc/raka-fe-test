@@ -5,7 +5,7 @@
 
 .container {
 	display: grid;
-	grid-template-columns: minmax(1em, 1fr) minmax(600px, 1440px) minmax(1em, 1fr);
+	grid-template-columns: minmax(1em, 1fr) minmax(200px, 1440px) minmax(1em, 1fr);
 
 
 	.header {
@@ -28,12 +28,25 @@
 	.footer {
 		grid-column: 2/2;
 	}
-		// @media (min-width: 600px) {
-		// 		display: grid;
-		// 		grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
-		// 		grid-column-gap: 2em;
-		// }
+
+	
+	@media (max-width: 1000px) {
+
+		.hero {
+			grid-column: 1/-1;
+		}
+
+		.statement {
+			grid-column: 1/-1;
+		}
+	}
+
 }
+
+
+
+
+
 
 
 

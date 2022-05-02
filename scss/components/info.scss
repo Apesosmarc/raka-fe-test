@@ -28,3 +28,19 @@
         height: rem(58);
     }
 }
+
+@media (max-width:1000px) {
+    .info {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .info__col {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .info__col--2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+}

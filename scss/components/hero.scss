@@ -17,13 +17,34 @@
         max-width: rem(550);
         margin-left: 25%;
 
-        & > * {
-            margin: 0;
+        .hero__title {
+            margin-bottom: rem(6);
+        }
+
+        .hero__subtitle {
+            margin-bottom: rem(30);
         }
     }
 
 
     &__btn {
+        height: rem(58);
         justify-self: start;
+        color: var(--light-text);
+    
     };
 }
+
+
+@media (max-width:1000px) {
+    .hero {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero__text-container {
+        grid-column: 1/-1;
+        margin: 0 auto;
+    }
+}
+

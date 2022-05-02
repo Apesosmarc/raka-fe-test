@@ -25,3 +25,14 @@
         background-color: var(--primary);
     }
 }
+
+
+@media (max-width:1000px) {
+    .statement{
+        height: 900px;
+    }
+    .statement__copy{
+        font-size: 30px;
+    }
+
+}

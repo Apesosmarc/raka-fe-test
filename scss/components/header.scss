@@ -13,7 +13,7 @@
     &__nav {
         // padding: 0 rem(64);
         max-width: rem(1313);	
-        width: 100%;
+        padding: 0 rem(64);
         height: rem(61.7);
         width: 100%;
         display: flex;
@@ -34,14 +34,28 @@
            background-size: contain;
         }
 
-
+        //skips affing margin to first nav link
         &__item:not(:first-child) {
             margin-left: rem(52);
         }
+
+        &__close-nav {
+            display: none;
+        }
+        
+    }
+}
+
+
+@media (max-width:1000px) {
+    .header__nav__list {
+        display: none;
     }
 
-
-
-
-
+    .header__nav__close-nav {
+        display: unset;
+    }
 }
+
+
+
