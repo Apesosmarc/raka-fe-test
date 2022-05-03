@@ -1,0 +1,27 @@
+@use '../utils' as *;
+
+.mobile-menu {
+    // changed display to flex in mobile.js
+    position:absolute;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-dark);
+    flex-direction: column;
+    align-items:center;
+
+    & button {
+        align-self: end;
+        margin-right: 10%;
+        margin-top: 10%;
+        font-size: rem(40);
+        background-color: var(--primary);
+    }
+
+    & li {
+        font-size: rem(35);
+        margin-bottom: rem(50);
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

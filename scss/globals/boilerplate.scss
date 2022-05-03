@@ -23,12 +23,14 @@ body a, a:link, a:visited, a:focus, a:hover, a:active {
 
 }
 
-
 ul {
     list-style: none;
     padding: 0;
 }
 
-.uppercase {
-    text-transform: uppercase;
+// mobile fs hack
+@media (max-width: 500px) {
+    html {
+        font-size: 70% !important;
+    }
 }

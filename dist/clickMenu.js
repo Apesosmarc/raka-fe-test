@@ -1,0 +1,2 @@
+"use strict";var makeResponsive=function(){var e=document.querySelector(".header__nav__open-nav"),n=document.querySelector(".mobile-menu"),t=document.querySelector(".mobile__exit"),o=!1,c=function(){document.body.style.overflow=o?"hidden":"auto"};e.addEventListener("click",(function(e){o=!0,n.style.display="flex",c()})),t.addEventListener("click",(function(e){o=!1,n.style.display="none",c()}))};
+//# sourceMappingURL=clickMenu.js.map

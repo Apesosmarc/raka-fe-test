@@ -1,0 +1,2 @@
+"use strict";var getYear=function(){var e=document.querySelector(".footer__fineprint"),t=(new Date).getFullYear();e.innerHTML="© ".concat(t," Raka. All Rights Reserved")};document.addEventListener("onload",getYear());
+//# sourceMappingURL=getYear.js.map

@@ -89,3 +89,10 @@ nav {
     font-size: rem(11);
     line-height: rem(16);
 }
+
+// mobile fs hack
+@media (max-width: 600px) {
+    html {
+        font-size: 70% !important;
+    }
+}
